@@ -4,7 +4,7 @@ describe 'launchbar' do
   it do
     should contain_package('Launchbar').with({
       :ensure => 'installed',
-      :provider => 'appdmg'
+      :provider => 'appdmg_eula'
     })
   end
 end

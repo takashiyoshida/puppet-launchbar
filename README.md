@@ -7,7 +7,7 @@ A boxen module for launchbar :)
 ## Usage
 
 ```puppet
-include phpstorm
+include launchbar
 ```
 
 ## Required Puppet Modules

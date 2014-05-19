@@ -17,9 +17,6 @@
 class launchbar(
   $version = '5.6.4'
 ) {
-
-  validate_re($version, '^\S+')
-
   package { 'Launchbar':
     ensure   => installed,
     provider => 'appdmg_eula',

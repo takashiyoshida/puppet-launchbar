@@ -20,3 +20,4 @@ launchbar::version: 5.6.4
 ## Required Puppet Modules
 
 * `boxen`
+* `stdlib`

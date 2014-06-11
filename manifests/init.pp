@@ -5,7 +5,7 @@
 # Sample Usage:
 #
 #   class { 'launchbar':
-#     version => '5.6.4'
+#     version => '6.0'
 #   }
 #
 # or:
@@ -15,7 +15,7 @@
 # with hiera data for "launchbar::version"
 #
 class launchbar(
-  $version = '5.6.4'
+  $version = '6.0'
 ) {
   package { 'Launchbar':
     ensure   => installed,
